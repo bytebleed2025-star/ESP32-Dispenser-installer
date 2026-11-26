@@ -1,0 +1,15 @@
+﻿{
+    "name":  "HydroNode Dispenser",
+    "version":  "1.0.0",
+    "builds":  [
+                   {
+                       "chipFamily":  "ESP32",
+                       "parts":  [
+                                     {
+                                         "path":  "firmware/HydroNode-Dispenser-v1.0.0-factory.bin",
+                                         "offset":  0
+                                     }
+                                 ]
+                   }
+               ]
+}
